@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Exemplo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .produto-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .preco {
+      font-weight: bold;
+      color: #28a745;
+    }
+    .ofertas {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#"><span class="text-success">logo</span>daloja</a>
+      <form class="d-flex mx-auto" style="width: 50%;">
+        <input class="form-control me-2" type="search" placeholder="Busque pelo produto que você desejar">
+        <button class="btn btn-outline-success" type="submit">🔍</button>
+      </form>
+      <a href="#" class="btn btn-outline-success">🛒 Carrinho (10)</a>
+    </div>
+  </nav>
+
+  <!-- Produtos -->
+  <div class="container my-5">
+    <div class="row g-4">
+      
+      <!-- Produto 1 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card produto-card shadow-sm">
+          <img src="tenis oakley.webp" class="card-img-top" alt="Produto">
+          <div class="card-body text-center">
+            <h6 class="text-muted">tenis oakley</h6>
+            <p class="mb-1 text-warning">★★★★★</p>
+            <p>R$ 220,00 no cartão<br><span class="preco">R$ 200,00</span></p>
+            <a href="#" class="btn btn-success w-100">COMPRAR</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto 2 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card produto-card shadow-sm">
+          <img src="tenis oakley.webp" class="card-img-top" alt="Produto">
+          <div class="card-body text-center">
+            <h6 class="text-muted">tenis oakley</h6>
+            <p class="mb-1 text-warning">★★★★★</p>
+            <p>R$ 220,00 no cartão<br><span class="preco">R$ 200,00 no pix</span></p>
+            <a href="#" class="btn btn-success w-100">COMPRAR</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto 3 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card produto-card shadow-sm">
+          <img src="tenis oakley.webp" class="card-img-top" alt="Produto">
+          <div class="card-body text-center">
+            <h6 class="text-muted">tenis oakley</h6>
+            <p class="mb-1 text-warning">★★★★★</p>
+            <p>R$ 220,00 no cartão<br><span class="preco">R$ 200,00 no pix</span></p>
+            <a href="#" class="btn btn-success w-100">COMPRAR</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto 4 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card produto-card shadow-sm">
+          <img src="tenis oakley.webp" class="card-img-top" alt="Produto">
+          <div class="card-body text-center">
+            <h6 class="text-muted">tenis oakley</h6>
+            <p class="mb-1 text-warning">★★★★★</p>
+            <p>R$ 220,00 no cartão<br><span class="preco">R$ 200,00 no pix</span></p>
+            <a href="#" class="btn btn-success w-100">COMPRAR</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Ofertas do Dia -->
+  <div class="ofertas">
+    <h4>OFERTAS DO DIA</h4>
+    <p>00 dias | 03 horas | 42 minutos | 34 segundos</p>
+    <a href="#" class="btn btn-light btn-sm">VER TODOS</a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
